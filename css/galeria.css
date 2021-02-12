@@ -55,16 +55,16 @@ figure {
   z-index: 2;
 }
 figure:nth-child(1) {
-  background-image: url(uploads/web.png);
+  background-image: url(../uploads/web.png);
 }
 figure:nth-child(2) {
-  background-image: url(uploads/panelweb.png);
+  background-image: url(../uploads/panelweb.png);
 }
 figure:nth-child(3) {
-  background-image: url(uploads/movil.png);
+  background-image: url(../uploads/movil.png);
 }
 figure:nth-child(4) {
-  background-image: url(uploads/inventec.png);
+  background-image: url(../uploads/inventec.png);
 }
 
 figcaption {

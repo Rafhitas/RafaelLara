@@ -35,7 +35,7 @@ html, body{
 }
 
 body.demos .section {
-    background: url(images/bg.png) repeat top center #f2f3f5;
+    background: url(../images/bg.png) repeat top center #f2f3f5;
 }
 
 body.demos .section-title img {
@@ -664,7 +664,7 @@ xclip
 }
 .right-box-pro::before {
     content: "";
-    background: url(images/country-quilt-dark.png);
+    background: url(../images/country-quilt-dark.png);
     width: 100%;
     height: 100%;
     position: absolute;
