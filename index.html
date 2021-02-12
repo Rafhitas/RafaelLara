@@ -1,544 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-		<title>Rafael | Lara </title>
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Rafael|Lara</title>  
+    <meta name="keywords" content="Desarrollador,Rafael Lara, Bernabe, Programador, Diseño, Misantla, Martinez de la Torre">
+    <meta name="description" content="">
+    <meta name="author" content="Rafael Lara Bernabe">
 
-		<!-- Google font -->
-		<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
-		<!-- Bootstrap -->
-		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/galeria.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
 
-		<!-- Font Awesome Icon -->
-		<link rel="stylesheet" href="css/font-awesome.min.css">
 
-		<!-- Custom stlylesheet -->
-		<link type="text/css" rel="stylesheet" href="css/style.css"/>
-		<link rel="stylesheet" href="css/css.css">
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="js/anime.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-		<link rel="stylesheet" href="slider3d/css/estilos.css">
-    
-		<script src="slider3d/js/modernizr.js" type="text/javascript"></script>
+</head>
+<body id="page-top" class="politics_version">
 
-		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
-
-    </head>
-	<body>
-
-		<!-- Header -->
-		<header id="header" class="transparent-nav">
-			<div class="container">
-
-				<div class="navbar-header">
-					<!-- Logo -->
-					<div class="navbar-brand">
-						<a class="logo" href="index.html">
-							<!-- <img src="./img/logo-alt2.png" alt="logo"> -->
-							<span class="white-text">Rafael | Lara</span>
-						</a>
-					</div>
-					<!-- /Logo -->
-
-					<!-- Mobile toggle -->
-					<button class="navbar-toggle">
-						<span></span>
-					</button>
-					<!-- /Mobile toggle -->
-				</div>
-
-				<!-- Navigation -->
-				<nav id="nav">
-					<ul class="main-menu nav navbar-nav navbar-right">
-						<li><a href="index.html">Inicio</a></li>
-						<li><a href="#nosotros">Acerca de Mi</a></li>
-						<li><a href="#conocimientos">Conocimientos</a></li>
-						<li><a href="#habilidades">Habilidades</a></li>
-						<li><a href="#contacto">Contacto</a></li>
-					</ul>
-				</nav>
-				<!-- /Navigation -->
-
-			</div>
-		</header>
-		<!-- /Header -->
-
-		<!-- Home -->
-		<div id="home" class="hero-area">
-
-			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/course01.jpg)"></div>
-			<!-- /Backgound Image -->
-
-			<div class="home-wrapper">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8">
-							<h1 class="white-text" >¡Hola! <span class="typed"></span></h1>
-							<h2 class="white-text">Mi nombre es <span class="saludo">Rafael Lara</span></h2>
-							<p class="lead white-text">Y soy apacionante del desarrollo web.</p>
-							
-							<a class="main-button icon-button btn " href="#nosotros">Conoce un poco sobre mi!</a>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			
-
+    <!-- LOADER -->
+    <div id="preloader">
+        <div id="main-ld">
+			<div id="loader"></div>  
 		</div>
-		<!-- /Home -->
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+	
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+			<!-- <img class="img-fluid" src="images/logo.png" alt="" /> -->
+            <span class="img-fluid">Rafael|Lara</span>
+		</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger active" href="#home">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Acerca de mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#testimonials">Testimonials</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
+            </li> -->
+			<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+	
+	<section id="home" class="main-banner parallaxie" style="background: url('uploads/banner-02.jpg')">
+		<div class="heading">
+			<h1>¡Hola! <span class="nombre">soy Rafael</span> </h1>
+			<p class="centro">"Bienvenido a mi portafolio web, explora y conoce más sobre mi persona."</p>
+			<h3 class="cd-headline clip is-full-width">
+				<span>Conocimientos y habilidades en:  </span>
+				<span class="cd-words-wrapper">
+					<b class="is-visible nombre">Desarrollo móvil</b>
+					<b class="amarillo">Desarrollo Web</b>
+					<b class="verde">Desarrollo de BackEnd</b>
+					<b class="fuccia">Administrador de Base de Datos</b>
+				</span>
+			</h3>
+		</div>
+	</section>
 
-		<!-- About -->
-		<div id="nosotros" class="section">
+	<svg id="clouds" class="hidden-xs" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 85 100" preserveAspectRatio="none">
+        <path d="M-5 100 Q 0 20 5 100 Z
+            M0 100 Q 5 0 10 100
+            M5 100 Q 10 30 15 100
+            M10 100 Q 15 10 20 100
+            M15 100 Q 20 30 25 100
+            M20 100 Q 25 -10 30 100
+            M25 100 Q 30 10 35 100
+            M30 100 Q 35 30 40 100
+            M35 100 Q 40 10 45 100
+            M40 100 Q 45 50 50 100
+            M45 100 Q 50 20 55 100
+            M50 100 Q 55 40 60 100
+            M55 100 Q 60 60 65 100
+            M60 100 Q 65 50 70 100
+            M65 100 Q 70 20 75 100
+            M70 100 Q 75 45 80 100
+            M75 100 Q 80 30 85 100
+            M80 100 Q 85 20 90 100
+            M85 100 Q 90 50 95 100
+            M90 100 Q 95 25 100 100
+            M95 100 Q 100 15 105 100 Z">
+        </path>
+    </svg>
 
-			<!-- container -->
-			<div  class="container">
-
-				<!-- row -->
-				<div class="row">
-
-					<div class="col-md-6">
-						<div class="section-header">
-							<h2>Bienvenido a mi P&aacute;gina Web</h2>
-							<p class="lead">Aquí conoceras un poco m&aacute;s sobre m&iacute;.</p>
-						</div>
-
-						<!-- feature -->
-						<div class="feature">
-							<i class="feature-icon fa fa-graduation-cap"></i>
-							<div class="feature-content">
-								<h4>Ingenieria en Tecnologías de la Información y Comunicaciones </h4>
-								<p>En el año 2016 inicie la carrera de Ingenieria en Tecnolog&iacute;as de la Informaci&oacute;n y Comunicaciones en el Instituto
-									Tecnol&oacute;gico Superior de Misantla. </p>
-									<p>Durante la carrera he aprendido a utilizar diferentes lenguajes como PHP, Laravel, Javascript, lenguaje de etiquetas
-										de HTML5, hojas de estilo como CSS.
-									Tambien he aprendido a manejar gestores de base de datos como SQL Server, MySQL. Realizando Sistemas de escritorios y Web basados en estos gestores.</p>
-							</div>
-						</div>
-						<!-- /feature -->
-
-						<!-- feature -->
-						<div class="feature">
-							<i class="feature-icon fa fa-laptop"></i>
-							<div class="feature-content">
-								<h4>Diferentes Cursos</h4>
-								<p>Durante mi carrera he estado en constante aprendizaje y he tomado algunos cursos que me han ayudado a resolver algunos de los proyectos
-									escolares en cada semestre, tales como e curso de M&aacute;ster en php 7+, poo, mvc, mysql, laravel 6+, codeigniter 4,
-									Flutter: Tu gu&iacute;a completa de desarrollo para IOS y Android ambos disponibles en Udemy. Son algunos de los cursos que he adquirido y que sin duda alguna
-									me han ayudado a mejorar en mis aprendizajes diarios.
-								</p>
-							</div>
-						</div>
-						<!-- /feature -->
-
-						<!-- feature -->
-						<div class="feature">
-							<i class="feature-icon fa fa-certificate"></i>
-							<div class="feature-content">
-								<h4>Certificaciones</h4>
-								<p>Actualmente tengo dos certificaciones por parte de la empresa Pega System y una más por parte de SCRUMStudy.</p>
-								<p>1.- Certified Business Architect</p>
-								<p>2.- Certified System Architect</p>
-								<p>3.- Scrum fundamentals Certified</p>
+    <div id="about" class="section wb">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="message-box">                        
+                        <h2 class="subtitulos">Acerca de Rafael.</h2>
+                        <br>
+                        <h3> Ingeniería en Tecnologías de la Información y Comunicaciones</h3>
+                        <p> 
+                          En el año 2016 inicie la carrera de Ingenieria en Tecnologías de la Información y Comunicaciones en el Instituto Tecnológico Superior de Misantla.
+                          Durante la carrera he aprendido a utilizar diferentes lenguajes como PHP, Laravel, Javascript, lenguaje de etiquetas de HTML5, hojas de estilo como CSS. Tambien he aprendido a manejar gestores de base de datos como SQL Server, MySQL. Realizando Sistemas de escritorios y Web basados en estos gestores.</p>
 						
-							</div>
+
+                        <!-- <a href="#" class="sim-btn btn-hover-new" data-text="Download CV"><span>Download CV</span></a> -->
+                    </div><!-- end messagebox -->
+                    <div class="message-box">                        
+                        <h3> Cursos</h3>
+                        <p>
+                            Durante mi carrera he estado en constante aprendizaje y he tomado algunos cursos que me han ayudado a resolver 
+                            algunos de los proyectos escolares en cada semestre, tales como e curso de Máster en php 7+, poo, mvc, mysql,
+                            laravel 6+, codeigniter 4, Flutter: Tu guía completa de desarrollo para IOS y Android ambos disponibles en Udemy.
+                            Son algunos de los cursos que he adquirido y que sin duda alguna me han ayudado a mejorar en mis aprendizajes diarios.
+                        </p>
+                    </div>
+
+                    <div class="message-box">
+                        <h3> Certificaciones</h3>
+                        <p> Actualmente tengo dos certificaciones por parte de la empresa Pega System
+                             y una más por parte de SCRUMStudy.</p>
+        
+                          <p> 1.- Certified Business Architect</p>
+                            
+                        <p>2.- Certified System Architect</p> 
+                            
+                        <p>3.- Scrum fundamentals Certified</p> 
+                        <object data="uploads/CV-RafaelLara.pdf" type="application/x-pdf" title="SamplePdf" width="500" height="720">
+                            <!-- <a href="uploads/CV-RafaelLara.pdf">shree</a>  -->
+                            <a href="uploads/CV-RafaelLara.pdf" class="sim-btn btn-hover-new" data-text="Ver CV"><span>Ver CV</span></a>
+                        </object>
+                       
+                    </div>
+
+                </div><!-- end col -->
+
+                
+              
+              
+                <div class="col-md-6">
+                    <div class="right-box-pro wow fadeIn">
+                       <a href="https://misantla.tecnm.mx/" target="_blank"><img src="uploads/banner1.png" alt="" class="img-fluid img-rounded"></a> 
+                    </div><!-- end media -->
+                    <br>
+                    <br>
+                    <div class="right-box-pro wow fadeIn">
+                        
+                        <a href="https://academy.pega.com/" target="_blank"> <img src="uploads/banner2.png" alt="" class="img-fluid img-rounded"></a>
+                       
+                    </div>
+                </div><!-- end col -->
+
+               
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+	
+    <div id="services" class="section lb">
+        <div class="container">
+            <div class="section-title text-left">
+                <h2 class="subtitulos">Experiencia</h2>
+                <br>
+                <p>Desarrollé mis prácticas profesionales en la empresa <strong>Inventalab México Soluciones Integrales de Ingeniería</strong>  durante el periodo [Marzo 2020-Febrero 2021].</p>
+                <p>A continuación describo el puesto en el que estuve laborando durante este tiempo:</p>
+            </div><!-- end title -->
+
+            <div class="row">
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="fas fa-database"></i>
 						</div>
-						<!-- /feature -->
-
+						<h2>Desarrollador de Base de datos</h2>
+						<p>Formé parte del equipo de diseño y desarrollo una base de datos en MySQL que permite el almacenamiento de información sobre negocios, tales como el nombre, dirección,
+                            servicios, etc. Esto con la finalidad de tener la información mejor organizada para su posterior uso mediante una Apirestful.
+                        </p>
 					</div>
-
-					<div class="col-md-6">
-						<div class="about-img">
-							
-							<a href="https://misantla.tecnm.mx" target="_blank"><img src="./img/banner1.png" alt=""></a>
+                </div><!-- end col -->
+                <div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="fa fa-laptop-code"></i>
 						</div>
+						<h2>Diseño y Desarrollo de una ApiRestful</h2>
+						<p>Diseño y desarrollo de una ApiRestful con el framework de laravel que permite gestionar la información en la base dedatos.</p>
 					</div>
-					<div></div>
-					<div class="col-md-6">
-						<div class="about-img">
-							
-							<a href="https://academy.pega.com/" target="_blank"><img src="./img/banner2.png" alt=""></a>
+                </div><!-- end col -->
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-process"></i>
 						</div>
+						<h2>Desarrollo de una Página Web</h2>
+						<p>Forme parte del equipo que desarrolló una página web informativa, en donde se da a conocer las ventajas de utilizar la aplicación móvil de la empresa.</p>
 					</div>
-
-				</div>
-				<!-- row -->
-
-			</div>
-			<!-- container -->
-		</div>
-		<!-- /About -->
-		
-		
-		<!-- Courses -->
-		<div id="conocimientos" class="section">
+                </div><!-- end col -->
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+                            <i class="fa fa-code"></i>
+						</div>
+						<h2>Desarrollo de un panel de administración web.</h2>
+						<p>Forme parte del equipo que desarrolló un panel de administración web utilizando el framework de bootstrap para el diseño y javascript para 
+                            hacer uso de la ApiRestful y hacer las transacciones necesarias.</p>
+					</div>
+                </div><!-- end col -->
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+                            <i class="fa fa-mobile-alt"></i>
+						</div>
+						<h2>Desarrollo de una Aplicación móvil</h2>
+						<p>Forme parte del equipo que desarrolló una aplicación móvil tipo directorio utilizando el framework de flutter e incluyendo la ApiRestful para gestionar la información.</p>
+					</div>
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+	
+	<div id="portfolio" class="section lb">
+      
+		<div class="container">
+			<div class="section-title text-left">
+                <h2 class="subtitulos">Portfolio</h2>
+                <br>
+                <p>Proyectos en los que he participado.</p>
+            </div><!-- end title -->
 			
-			<div class="row">
-				
-			</div>
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/taza.png)"></div>
-			<!-- container -->
-			<div class="container">
-				
-				<div class="home-wrapper">
-					
-				</div>
 
-				<!-- courses -->
-				
-				<div class="container2">
-					
-					<div class="wrapper">
-						<h3 class="slider" >Conocimientos en:</h3>
-					
+                <input type="radio" id='una' name="tractor" checked='checked' />
+                <input type="radio" id='dole' name="tractor" />
+                <input type="radio" id='tele' name="tractor" />
+                <input type="radio" id='catele' name="tractor" />
+                    <section class='galeria'>
+                        <figure>
+                            <a class="padin" href="http://www.enkorto.com" target="_blank">P&aacute;gina Web Enkorto</a>
+                                
+                            <figcaption><a href="http://www.enkorto.com" target="_blank" class="padin paddincolor web">Visitar Sitio</a>
+                                <p class="paddincolor">La página de <strong>Enkorto</strong> Se desarrollo utilizando el framework de bootstrap, y tiene la finalidad de informar sobre el uso de la 
+                                aplicación móvil.</p>
+                            </figcaption>
+                            <label for='una'></label>
+                        </figure>
 
+                        <figure>
+                            <h2 class="padin">Panel de Administración</h2>
+                            <figcaption><a href="index.html" class="padin paddincolor">Fue desarrollado con Laravel, Javascript, Html5, Bootstrap y hace uso de una ApiRestful.</a>
+                                <p class="paddincolor"></p>
+                                <p class="paddincolor">La finalidad del panel de administración, es gestionar los diferentes negocios y servicios que se ofertan en la ciudad de Misantla
+                                    de una manera más rapida y fácil para el encargado del sitio.
+                                </p>
+                            </figcaption>
+                            <label for='dole'></label>
+                        </figure>
 
+                        <figure>
+                            <h2 class="padin">Aplicaci&oacute;n M&oacute;vil</h2>
+                            <figcaption><a href="index.html" class="padin paddincolor">La aplicación móvil fue desarrollada con el framework de flutter.</a>
+                                <p class="paddincolor">Tiene la función de servir como un directorio virtual de la ciudad de Misantla.
+                                    En el que se puede encontrar a los diferentes negocios y servicios que ofrecen, también cuenta con la información de contacto de cada negocio para 
+                                    facilitarle al usuario su interacción con ellos.
+                                </p>
+                            </figcaption>
+                            <label for='tele'></label>
+                        </figure>
 
-						<ul id="sb-slider" class="sb-slider">
-							<li>
-								<a  ><img src="img/htmlycss.png" alt="image1" /></a>
-								<div class="sb-description">
-									<h3 class="texto1">HTML5 y Css</h3>
-									<p class="texto2">Tengo conocimiento en el maquetado de páginas web con html5 y hojas de estilo en cascada.</p>
-								</div>
-							</li>
-							<li>
-								<a ><img src="img/js.jpg" height="90%" width="100%" alt="image2" /></a>
-								<div class="sb-description">
-									<h3 class="texto1">Javascript</h3>
-									<p class="texto2">Utilizo javascript para poder darle algunas animaciones, validaciones de campos y manejo de JSON.</p>
-
-								</div>
-							</li>
-							<li>
-								<a ><img src="img/php.jpg" alt="image1" /></a>
-								<div class="sb-description">
-									<h3 class="texto1">PHP</h3>
-									<p class="texto2">Como lenguaje del lado del servidor utilizo PHP y el framework de Laravel para las peticiones al servidor y manejo de la informaci&oacute;n. </p>
-
-								</div>
-							</li>
-							<li>
-								<a ><img src="img/sqlss.jpg" height="90%" width="100%" alt="image1" /></a>
-								<div class="sb-description">
-									<h3 class="texto1">SQL Server</h3>
-									<p class="texto2">Tengo conocimiento en el desarrollo de base de datos con el gestor SQL Server, consultas, procedimientos almacenados, vistas, entre otros.
-										Lo he implementado en sistemas de escritorio con el lenguaje visual basic.
-									</p>
+                         <figure>
+                            <h2 class="padin">Sistema de inventario INVENTEC</h2>
+                            <figcaption><a href="index.html" class="padin paddincolor">Sistema desarrollado en Visual Basic.</a>
+                                <p class="paddincolor">Tiene la función de llevar el control de los bienes muebles e inmuebles del Instituto Tecnológico Superior de Misantla.
+                                Regitros de usuarios, Reportes, Control de bienes por usuario, Respaldos.
+                                </p>
+                            </figcaption>
+                            <label for='catele'></label>
+                        </figure>
+                    </section>
+<!-- <div class='tester'></div> -->
+			
+		</div>
+	</div>
+	
 	
 
-								</div>
-							</li>
-							<li>
-								<a ><img src="img/mysql.png" alt="image1" /></a>
-								<div class="sb-description">
-									<h3 class="texto1">MySQL Server</h3>
-									<p class="texto2">También implemento el gestor de base de datos MySQL para sistemas web, sistemas de escritorio.</p>
+    <div id="contact" class="section db">
+        <div class="container">
+            <div class="section-title text-left">
+                <h2 class="subtitulos">Contacto</h2>
+                <br>
+                <p>Si tienes alguna idea, negocio o servicio en mente que quieras poner en línea, ponte en contacto y te ayudaré con mucho gusto. </p>
+            </div><!-- end title -->
 
-								</div>
-							</li>
-							<li>
-								<a ><img src="img/office.jpg" alt="image1" /></a>
-								<div class="sb-description">
-									<h3 class="texto1">Paquetería de Office</h3>
-									<p class="texto2">Manejo la paquetería de office para complementar la información necesaría.</p>
+            <div class="row">
+               
+                        <div class="links">
+                            <a target="_blank" href="https://www.linkedin.com/public-profile/in/rafael-lara-bernabe-6096451a4"><i class="fab fa-linkedin linkedin"></i></a>
+                            <a target="_blank" href="https://www.facebook.com/profile.php?id=100042883692794"><i class="fab fa-facebook facebook"></i></a>
+                            <a target="_blank" href="https://instagram.com/rafalara_b"><i class="fab fa-instagram instagram"></i></a>
+                            <a target="_blank" href="https://wa.link/eu0w7b"><i class="fab fa-whatsapp-square whatsapp"></i></a>
+                            <a target="_blank" href="https://accounts.google.com/signin/v2/identifier?hl=es-419&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><i class="fab fa-google google"></i></a>
+                
+                        </div>
+                
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
 
-								</div>
-							</li>
-							<li>
-								<a ><img src="img/photo.jpg" alt="image1" /></a>
-								<div class="sb-description">
-									<h3 class="texto1">Photoshop</h3>
-									<p class="texto2">Manejo photoshop para reaizar algunas ediciones de imagenes y complemetar el desarrollo web.</p>
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">
+                    <p class="footer-links">
+                        <a href="#home">Inicio</a>
+                        <a href="#about">Acerca de mi</a>
+                        <a href="#services">Experiencia</a>
+                        <a href="#portafolio">Portafolio</a>
+                       
+                        <a href="#contact">Contacto</a>
+                    </p>
+                    <p class="footer-company-name">Derechos Reservados. &copy; 2021 <a href="index.html">Rafael|Lara</a></p>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
 
-								</div>
-							</li>
-							
-						</ul>
-			
-						<div id="nav-arrows" class="nav-arrows">
-							<a href="#">Next</a>
-							<a href="#">Previous</a>
-						</div>
-			
-					</div>
-				</div>
-				<!-- /courses -->
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
-				<!-- <div class="row">
-					<div class="center-btn">
-						<a class="main-button icon-button" href="#">Más Tutoriales</a>
-					</div>
-				</div> -->
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+	<!-- Camera Slider -->
+	<script src="js/jquery.mobile.customized.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script> 
+	<script src="js/parallaxie.js"></script>
+	<script src="js/headline.js"></script>
+	<!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/jquery.vide.js"></script>
 
-			</div>
-			<!-- container -->
-
-		</div>
-		<!-- /Courses -->
-	
-
-		<!-- Why us -->
-		<div id="habilidades" class="section">
-
-			<!-- container -->
-			<div class="container">
-
-				<!-- row -->
-				<div class="row">
-					<div class="section-header text-center">
-						<h2>Habilidades</h2>
-						<!-- <p class="lead">La calidad y percepción de los aprendizajes de estudiantes para estudiantes.</p> -->
-					</div>
-
-					<!-- feature -->
-					<div class="col-md-4">
-						<div class="feature">
-							<!-- <i class="feature-icon fa fa-flask"></i> -->
-							<i class="feature-icon fa fa-users"></i>
-							<div class="feature-content">
-								<h4>Trabajo en equipo. </h4>
-								<p>Considero que el trabajo en equipo es importante para el desarrollo del proyecto.</p>
-							</div>
-						</div>
-					</div>
-					<!-- /feature -->
-
-					<!-- feature -->
-					<div class="col-md-4">
-						<div class="feature">
-							<i class="feature-icon fa fa-leanpub"></i>
-						
-							<div class="feature-content">
-								<h4>Autodidacta</h4>
-								<p>Me gusta seguir aprendiendo todo los d&iacute;as y mejorar los conocimientos que tengo para poder cumplir mis metas.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="feature">
-							
-							<i class="feature-icon fa fa-comments"></i>
-							<div class="feature-content">
-								<h4>Buena Comunicaci&oacute;n</h4>
-								<p>Excelente comunicaci&oacute;n con terceras personas de una manera clara, respetuosa.</p>
-								<br>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="feature">
-							
-							<i class="feature-icon fa fa-check"></i>
-							<div class="feature-content">
-								<h4>Proactivo</h4>
-								<p>Tengo iniciativa para proponer nuevas ideas para mejorar mi persona, el equipo y el proyecto.</p>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-4">
-						<div class="feature">
-							
-							<i class="feature-icon fa fa-file"></i>
-							<div class="feature-content">
-								<h4>Buena redacci&oacute;n</h4>
-								<p>Redacci&oacute;n de documentos, informes, manuales.</p>
-								<br>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="feature">
-							
-							<i class="feature-icon fa fa-search"></i>
-							<div class="feature-content">
-								<h4>Investigaci&oacute;n</h4>
-								<p>Investigaci&oacute;n de problemas en diferentes plataformas para solucionar diversos probleas que se presentan en el d&iacute;a a d&iacute;a. </p>
-							</div>
-						</div>
-					</div>
-
-				</div>
-				<!-- /row -->
-
-				<hr class="section-hr">
-
-				<!-- row -->
-				<!-- <div class="row">
-
-					<div class="col-md-6">
-						<h3>Persius imperdiet incorrupte et qui, munere nusquam et nec.</h3>
-						<p class="lead">Libris vivendo eloquentiam ex ius, nec id splendide abhorreant.</p>
-						<p>No vel facete sententiae, quodsi dolores no quo, pri ex tamquam interesset necessitatibus. Te denique cotidieque delicatissimi sed. Eu doming epicurei duo. Sit ea perfecto deseruisse theophrastus. At sed malis hendrerit, elitr deseruisse in sit, sit ei facilisi mediocrem.</p>
-					</div>
-
-					<div class="col-md-5 col-md-offset-1">
-						<a class="about-video" href="#">
-							<img src="./img/about-video.jpg" alt="">
-							<i class="play-icon fa fa-play"></i>
-						</a>
-					</div>
-
-				</div> -->
-				<!-- /row -->
-
-			</div>
-			<!-- /container -->
-
-		</div>
-		<!-- /Why us -->
-
-		<!-- Contact CTA -->
-		<div id="contacto" class="section">
-
-			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/cta2-background.jpg)"></div>
-			<!-- Backgound Image -->
-
-			<!-- container -->
-			<div class="container">
-
-				<!-- row -->
-				<div class="row">
-
-					<div class="col-md-12 col-md-offset-2 text-center">
-					
-						<div class="col-md-8">
-							<div class="contact-form">
-								<h2>Enviar un Mensaje</h2>
-								<form action="#" method="">
-									<input class="input" type="text" name="name" placeholder="Name">
-									<input class="input" type="email" name="email" placeholder="Email">
-									<input class="input" type="text" name="subject" placeholder="Subject">
-									<textarea class="input" name="message" placeholder="Enter your Message"></textarea>
-									<button class="main-button icon-button pull-right">Enviar Mensaje</button>
-								</form>
-							</div>
-						</div>
-					</div>
-
-				</div>
-				<!-- /row -->
-
-			</div>
-			<!-- /container -->
-
-		</div>
-		<!-- /Contact CTA -->
-
-		<!-- Footer -->
-		<footer id="footer" class="section">
-
-			<!-- container -->
-			<div class="container">
-
-				<!-- row -->
-				<div class="row">
-
-					<!-- footer logo -->
-					<div class="col-md-6">
-						<div class="footer-logo">
-							<a class="logo" href="index.html">
-								<!-- <img src="./img/logo-alt3.png" alt="logo"> -->
-								<span class="logorafa">Rafael | Lara</span>
-							</a>
-						</div>
-					</div>
-					<!-- footer logo -->
-
-					<!-- footer nav -->
-					<div class="col-md-6">
-						<ul class="footer-nav">
-							<li><a href="index.html">Inicio</a></li>
-						<li><a href="#nosotros">Acerca de Mi</a></li>
-						<li><a href="#conocimientos">Conocimientos</a></li>
-						<li><a href="#habilidades">Habilidades</a></li>
-						<li><a href="#contacto">Contacto</a></li>
-						</ul>
-					</div>
-					<!-- /footer nav -->
-
-				</div>
-				<!-- /row -->
-
-				<!-- row -->
-				<div id="bottom-footer" class="row">
-
-					<!-- social -->
-					<div class="col-md-4 col-md-push-8">
-						<ul class="footer-social">
-							<li><a href="https://www.facebook.com/profile.php?id=100042883692794" class="facebook"><i class="fa fa-facebook"></i></a></li>
-							<!-- <li><a href="#" class="google"><i class="fa fa-google"></i></a></li> -->
-							
-							<li><a href="https://www.instagram.com/rafalara_b" class="instagram"><i class="fa fa-instagram"></i></a></li>
-							<!-- <li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li> -->
-							<li><a href="https://www.linkedin.com/in/rafael-lara-bernabe-6096451a4" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
-						</ul>
-					</div>
-					<!-- /social -->
-
-					<!-- copyright -->
-					<div class="col-md-8 col-md-pull-4">
-						<div class="footer-copyright">
-							<span>&copy; Copyright 2020. All Rights Reserved. | Rafael Lara</span>
-						</div>
-					</div>
-					<!-- /copyright -->
-
-				</div>
-				<!-- row -->
-
-			</div>
-			<!-- /container -->
-
-		</footer>
-		<!-- /Footer -->
-
-		<!-- preloader -->
-		<div id='preloader'><div class='preloader'></div></div>
-		<!-- /preloader -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script type="text/javascript">var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'<img src="https://2.bp.blogspot.com/-hnAigWdtcss/W93ziWVNVlI/AAAAAAAAe70/gTr_UbmATFMXZIN-IyN1CNSlpKUSaiBEwCLcBGAs/s1600/Flecha%2BArriba%2BCharkleons%2BVerde%2Bnaranja.png"/>',controlattrs:{offsetx:5,offsety:5},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var t=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);t="string"==typeof t&&1==jQuery("#"+t).length?jQuery("#"+t).offset().top:0,this.$body.animate({scrollTop:t},this.setting.scrollduration)},keepfixed:function(){var t=jQuery(window),o=t.scrollLeft()+t.width()-this.$control.width()-this.controlattrs.offsetx,s=t.scrollTop()+t.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:o+"px",top:s+"px"})},togglecontrol:function(){var t=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=t>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(t){var o=scrolltotop,s=document.all;o.cssfixedsupport=!s||s&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,o.$body=t(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),o.$control=t('<div id="topcontrol">'+o.controlHTML+"</div>").css({position:o.cssfixedsupport?"fixed":"absolute",bottom:o.controlattrs.offsety,right:o.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"Scroll to Top"}).click(function(){return o.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=o.$control.text()&&o.$control.css({width:o.$control.width()}),o.togglecontrol(),t('a[href="'+o.anchorkeyword+'"]').click(function(){return o.scrollup(),!1}),t(window).bind("scroll resize",function(t){o.togglecontrol()})})}};scrolltotop.init();
-		jQuery(document).ready(function($){ 
-		// if (localStorage.getItem('advertOnce') !== 'true') {
-		// $('body').append('<div id="advert-once" style="position:fixed; bottom: 10px; left: 10px;"><a href="https://www.scrolltotop.com/guide-on-how-to-make-a-website.php" target="_blank" rel="nofollow"><img src="https://i1155.photobucket.com/albums/p559/scrolltotop/makewebsite.png" width="87" height="52" border="0" alt="make a website" /></a><div class="advert-button"></div></div>')
-		// localStorage.setItem('advertOnce','true');
-		// } 
-		$('#advert-once .advert-button').on('click',function(){
-		$('#advert-once').hide();
-		}); 
-		});
-		</script>
-		<noscript>Not seeing a <a href="https://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
-		
-
-		<!-- jQuery Plugins -->
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-		<script type="text/javascript" src="js/main.js"></script>
-		<script type="text/javascript" src="js/js.js"></script>
-		<!-- slider3d -->
-		<script src="slider3d/js/jquery.js"></script>
-		<script src="slider3d/js/jquery.slicebox.js"></script>
-
-		<script src="slider3d/js/script.js"></script>
-		<!-- <script src="js/js.js"></script> -->
-	</body>
+</body>
 </html>
